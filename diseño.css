@@ -1,0 +1,30 @@
+*{
+    background: black;
+}
+
+.carousel-item{
+    justify-content: center;
+}
+
+.logo{
+    background: black;
+    width: 106px;
+    height: 106px;
+    margin-right: 35px;
+}
+
+.iconos-redes-header{ 
+    width: 20px;
+    margin: 10px 5px;
+}
+
+.imagen-carrucel{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    margin-left: 430px;
+}
+
+.texto-uno{
+    color: orange;
+}
