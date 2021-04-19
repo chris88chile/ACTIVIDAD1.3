@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-    
 
 <head>
     <!-- Required meta tags -->
@@ -12,25 +11,22 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
         <!--link de estilo CSS-->
-
+        
         <link rel="stylesheet" href="diseño.css">
 
     <title>Nuestra web</title>
     <link rel="icon" type="image/jpg" href="Recursos/Logo superior.jpeg">
 
 </head>
-
 <body>
-
-    <!--Segunda barra-->
-    
+    <!--Primer barra-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a href="Index.html">
             <img class="logo" src="Recursos/Logo negro.jpeg" alt="">
             </a>
             <a class="navbar-brand" href="Index.html">Inicio</a>
-                
+    
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,89 +44,84 @@
                     </li>
                     <li class="nav-item dropdown">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
                         <ul class="dropdown-menu" aria-current="page"">
-                            <li><a class="dropdown-item" href="#">Artistas</a></li>
-                            <li><a class="dropdown-item" href="#">Categorias</a></li>
-                        </ul>
+                                <li><a class=" dropdown-item" href="#">Artistas</a>
                     </li>
-                    </ul>
+                    <li><a class="dropdown-item" href="#">Categorias</a></li>
+                </ul>
+                </li>
+                </ul>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar artista, arte o concepto" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar artista, arte o concepto"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
                 <a class="logos2" href="#">
-                    <a href="https://twitter.com/">
                     <img class="iconos-redes-header" src="Recursos/iconoTwitter.png" alt="Twitter">
-                    </a>
-                    <a href="https://www.facebook.com/">
                     <img class="iconos-redes-header" src="Recursos/iconoFace.png" alt="Facebook">
-                    </a>
-                    <a href="https://www.instagram.com/">
                     <img class="iconos-redes-header" src="Recursos/iconoInsta.png" alt="Instagram">
-                    </a>
-                </a> 
+                </a>
             </div>
         </div>
     </nav>
 
 
-    <!--Carrucel-->
+    <!--Formulario-->
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container">
+    <form class="row g-3">
+        <div class="col-md-6" class="form-control">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <a class="link-1" href="segunda pag.html" target="_blank" >
-                <img class="imagen-carrucel" src="Recursos/Screenshot_1.png" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="texto-uno">First slide label</h5>
-                    <p class="texto-uno">Some representative placeholder content for the first slide.</p>
-                </div>
-                </a>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <a class="link-1" href="segunda pag.html" target="_blank">
-                <img class="imagen-carrucel" src="Recursos/Screenshot_2.png" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="texto-uno">Second slide label</h5>
-                    <p class="texto-uno">EL LUCAS SE LA COMe</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <a class="link-1" href="segunda pag.html" target="_blank">
-                <img class="imagen-carrucel" src="Recursos/Screenshot_3.png" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="texto-uno">Third slide label</h5>
-                    <p class="texto-uno">Some representative placeholder content for the third slide.</p>
-                </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+        </div>
+    </form>
     </div>
 
     
-    
-
-
-    <!--No pasar de aquí-->
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
