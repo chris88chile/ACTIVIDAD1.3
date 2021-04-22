@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,25 +11,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-        <!--link de estilo CSS-->
-        
-        <link rel="stylesheet" href="diseño.css">
+    <!--link de estilo CSS-->
+
+    <link rel="stylesheet" href="diseño.css">
 
     <title>Nuestra web</title>
     <link rel="icon" type="image/jpg" href="Recursos/Logo superior.jpeg">
 
 </head>
+
 <body>
-    <!--Primer barra-->
+
+    <!--Segunda barra-->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a href="Index.html">
-            <img class="logo" src="Recursos/Logo negro.jpeg" alt="">
+            <a href="index.html">
+                <img class="logo" src="Recursos/Logo negro.jpeg" alt="">
             </a>
-            <a class="navbar-brand" href="Index.html">Inicio</a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,7 +42,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contactanos</a>
+                        <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="Formulario.html">Registrarse</a>
@@ -49,7 +54,7 @@
                             Productos
                         </a>
                         <ul class="dropdown-menu" aria-current="page"">
-                                <li><a class=" dropdown-item" href="#">Artistas</a>
+                            <li><a class=" dropdown-item" href="#">Artistas</a>
                     </li>
                     <li><a class="dropdown-item" href="#">Categorias</a></li>
                 </ul>
@@ -62,66 +67,75 @@
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
                 <a class="logos2" href="#">
-                    <img class="iconos-redes-header" src="Recursos/iconoTwitter.png" alt="Twitter">
-                    <img class="iconos-redes-header" src="Recursos/iconoFace.png" alt="Facebook">
-                    <img class="iconos-redes-header" src="Recursos/iconoInsta.png" alt="Instagram">
+                    <a href="https://twitter.com/">
+                        <img class="iconos-redes-header" src="Recursos/iconoTwitter.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img class="iconos-redes-header" src="Recursos/iconoFace.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img class="iconos-redes-header" src="Recursos/iconoInsta.png" alt="Instagram">
+                    </a>
                 </a>
             </div>
         </div>
     </nav>
 
 
+
     <!--Formulario-->
 
-    <div class="container">
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+    <section class="contact-box">
+    <div class="row no-gutters bg-dark">
+        <div class="col-xl-5 col-lg-12 register-bg">            
         </div>
-        <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-            </select>
-        </div>
-        <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
+        <div class="col-xl-7 col-lg-12 d-flex">
+            <div class="container align-self-center p-6">
+                <h1 class="font-weight-bold mb-3">Crea tu cuenta gratis</h1>
+                <div class="form-group">
+                    <button class="btn btn-outline-dark d-inline-block text-light mr-2 mb-3 width-100"><i
+                            class="icon ion-logo-google lead align-middle mr-2"></i> Google </button>
+                    <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100"><i
+                            class="icon ion-logo-facebook lead align-middle mr-2"></i> Facebook</button>
+                </div>
+                <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
+    
+                <form>
+                    <div class="form-row mb-2">
+                        <div class="form-group col-md-6">
+                            <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Tu apellido">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                    </div>
+                    <div class="form-group mb-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label text-muted">Al seleccionar esta casilla aceptas nuestro aviso de
+                                privacidad y los términos y condiciones</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary width-100">Regístrate</button>
+                </form>
+                <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2019 Templune</small>
             </div>
         </div>
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-        </div>
-    </form>
     </div>
+    </section>
 
-    
+    <!--No pasar de aquí-->
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
