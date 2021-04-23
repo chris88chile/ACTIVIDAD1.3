@@ -86,11 +86,10 @@ body {
 }
 
 .logoG { 
-    position: absolute;
-    left: 1170px;
+    right: 250px;
     top: 200px;
-
 }
+
 .parrafoc {
     width: 700px;
     height: 200px;
