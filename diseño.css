@@ -86,7 +86,8 @@ body {
 }
 
 .logoG { 
-    right: 250px;
+    position: absolute;
+    left: 1000px;
     top: 200px;
 }
 
