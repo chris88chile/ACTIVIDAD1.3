@@ -78,3 +78,32 @@ body {
     background-repeat: no-repeat;
     min-height: 50vh;
 }
+.logoG { 
+    position: fixed;
+    left: 1280px;
+    top: 150px;
+
+}
+.parrafoc {
+    width: 700px;
+    height: 200px;
+
+}
+.parrafoc p
+{
+    font-size: 1.8rem;
+
+}
+.Calamardoh{
+    position: fixed;
+    bottom: 10px;
+    left: 620px;
+    
+
+
+}    
+
+
+
+
+
