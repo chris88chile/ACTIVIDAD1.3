@@ -15,14 +15,22 @@
 }
 
 .imagen-carrucel{
-    width: 500px;
+    width: 1000px;
     height: 500px;
     margin: 20px;
-    margin-left: 430px;
+    margin-left: 265px;
+    margin-right: 180px;
 }
 
 .texto-uno{
     color: orange;
+    font-size: 10px;
+}
+
+.carousel-caption{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 body{
@@ -69,4 +77,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 50vh;
+}
+
+.imagenlucas{
+    width: 380px;
+    height: 250px;
+    margin: 30px;
 }
