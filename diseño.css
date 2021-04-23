@@ -104,8 +104,30 @@ body {
     position: absolute;
     bottom: -720px;
     left: -650px;
-    
-
-
 }    
 
+
+
+footer{
+    margin-top: 20px;
+    background-color: orange;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer{
+    background-color: orange;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.letra-footer{
+    background-color: orange;
+}
+
+.iconos-redes{
+    background-color: orange;
+    width: 20px;
+    margin: 10px 5px;
+
+}
