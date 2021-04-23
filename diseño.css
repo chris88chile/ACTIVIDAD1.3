@@ -84,3 +84,23 @@ body {
     height: 250px;
     margin: 30px;
 }
+
+.parrafoc {
+    width: 700px;
+    height: 200px;
+
+}
+.parrafoc p{
+    font-size: auto;
+}
+.img_nude{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+.img_venus{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+
+}
