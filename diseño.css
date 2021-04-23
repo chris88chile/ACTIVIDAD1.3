@@ -84,9 +84,10 @@ body {
     height: 250px;
     margin: 30px;
 }
+
 .logoG { 
     position: absolute;
-    left: 1280px;
+    left: 1170px;
     top: 200px;
 
 }
@@ -95,9 +96,23 @@ body {
     height: 200px;
 
 }
+.parrafoc p{
+    font-size: auto;
+}
+.img_nude{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+.img_venus{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+
+}
 .parrafoc p
 {
-    font-size: 1.8rem;
+    font-size: auto;
 
 }
 .Calamardoh{
@@ -106,7 +121,12 @@ body {
     left: -650px;
 }    
 
+.fotoT{
+    position: absolute;
+    left: 1250px;
+    top: 200px;
 
+}  
 
 footer{
     margin-top: 20px;
