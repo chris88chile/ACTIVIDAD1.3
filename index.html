@@ -54,11 +54,14 @@
                             Historia
                         </a>
                         <ul class="dropdown-menu" aria-current="page">
-                            <li><a class=" dropdown-item" target="_blank" href="https://es.wikipedia.org/wiki/Historia_del_arte">Historia del arte</a>
+                            <li><a class=" dropdown-item" target="_blank"
+                                    href="https://es.wikipedia.org/wiki/Historia_del_arte">Historia del arte</a>
+                            </li>
+                            <li><a class="dropdown-item" target="_blank"
+                                    href="https://hotbook.com.mx/obras-arte-trascendentales-historia/">Pinturas más
+                                    renombradas</a></li>
+                        </ul>
                     </li>
-                    <li><a class="dropdown-item" target="_blank" href="https://hotbook.com.mx/obras-arte-trascendentales-historia/">Pinturas más renombradas</a></li>
-                </ul>
-                </li>
                 </ul>
                 </ul>
                 <form class="d-flex">
@@ -84,81 +87,88 @@
 
     <!--Carrucel-->
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <a class="link-1" href="Tarde.html" target="_blank">
-                    <img class="imagen-carrucel" src="Recursos/tarde de domingo.jpg" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="texto-uno">Tarde de domingo en la isla de la Gran Jatte</h5>
-                        <p class="texto-uno">Tarde de domingo en la isla de la Gran Jatte es un cuadro del pintor
-                            neoimpresionista francés Georges Seurat, ejemplo de
-                            puntillismo considerado por muchos una de las pinturas más relevantes del Siglo XIX</p>
-                    </div>
-                </a>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <a class="link-1" href="nocheestrellada.html" target="_blank">
-                    <img class="imagen-carrucel" src="Recursos/noche estrellada.jpg" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="texto-uno">Noche estrellada sobre el Ródano</h5>
-                        <p class="texto-uno">Noche estrellada sobre el Ródano es una de las pinturas de Vincent van Gogh
-                            de la ciudad de Arlés por la noche. Fue
-                            pintado en un lugar en la orilla del Ródano que estaba a solo dos minutos andando de la Casa
-                            Amarilla en la plaza
-                            Lamartine, que Van Gogh alquilaba en ese tiempo.</p>
-                    </div>
+            <div class="carousel-item active">
+                <a href="Tarde.html" target="_blank">
+                    <img src="Recursos/tarde de domingo.jpg" class="d-block w-100" alt="...">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="link-1" href="Calamardoc.html" target="_blank">
-                    <img class="imagen-carrucel" src="Recursos/escultura calamardo.png" alt="">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="texto-uno">Calamardo</h5>
-                        <p class="texto-uno">Simplemente Calamardo.</p>
-                    </div>
+                <a href="nocheestrellada.html" target="_blank">
+                    <img src="Recursos/noche estrellada.jpg" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="Calamardoc.html" target="_blank">
+                    <img src="Recursos/calamardoH.png" class="d-block w-100" alt="...">
                 </a>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 
-<!--IMAGENES LUCAS-->
 
-    <a href="Nude_with_joyous.html">
-    <div class="rounded float-start">
-        <img class="imagenlucas" src="Recursos/Nude_with_joyous.jpg" alt="">
+    <!--Targetas-->
+
+    <div class="card-group">
+        <div class="card">
+            <a href="Nude_with_joyous.html">
+                <img src="Recursos/Nude_with_joyous.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+        <div class="card">
+            <a href="El_beso.html">
+                <img src="Recursos/beso_picasso.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+        <div class="card">
+            <a href="Venus.html">
+                <img src="Recursos/venus.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
     </div>
-</a>
-    <a href="El_beso.html">
-    <div class="rounded float-end">
-        <img class="imagenlucas" src="Recursos/beso_picasso.jpg" alt="">
-    </div>
-</a>
-    <a href="Venus.html">
-    <div class="text-center">
-        <img class="imagenlucas" src="Recursos/venus.jpg" alt="">
-    </div>
-</a>
 
 
     <!--Ultima linea-->
-    
+
     <footer>
         <img class="logotipo-footer" src="Recursos/pencial.png" alt="">
         <br>
@@ -166,7 +176,9 @@
         <img class="iconos-redes" src="Recursos/fblanco.png" alt="">
         <img class="iconos-redes" src="Recursos/iclanco.png" alt="">
 
-        <p class="letra-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt officiis at doloribus veritatis <br>maiores esse debitis distinctio? Doloribus corrupti repudiandae modi voluptatibus nesciunt! Quos, quia? Facere veniam repellat similique!</p> 
+        <p class="letra-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt officiis at
+            doloribus veritatis <br>maiores esse debitis distinctio? Doloribus corrupti repudiandae modi voluptatibus
+            nesciunt! Quos, quia? Facere veniam repellat similique!</p>
     </footer>
 
 

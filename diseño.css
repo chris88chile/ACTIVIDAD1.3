@@ -14,24 +14,11 @@
     margin: 10px 5px;
 }
 
-.imagen-carrucel{
-    width: 1000px;
-    height: 500px;
-    margin: 20px;
-    margin-left: 265px;
-    margin-right: 180px;
-}
-
 .texto-uno{
     color: orange;
     font-size: 10px;
 }
 
-.carousel-caption{
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 body{
     background-color: black;
@@ -80,9 +67,9 @@ body {
 }
 
 .imagenlucas{
-    width: 380px;
+   width: 380px;
     height: 250px;
-    margin: 30px;
+    margin: 30px; 
 }
 
 .logoG { 
@@ -149,5 +136,41 @@ footer .logotipo-footer{
     background-color: orange;
     width: 20px;
     margin: 10px 5px;
+}
 
+.card-img-top{
+    width: 380px;
+    height: 250px;
+    margin: 30px;
+}
+
+.card-group{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+}
+
+.carousel-inner{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    background-color: black;
+}
+
+.rounded mx-auto d-block{
+    width: 1000px;
+    height: 250px;
+    margin: 30px;
+}
+
+.imagen-noche{
+    margin: 50px;
+}
+
+.card-body{
+    text-align: left;
 }
