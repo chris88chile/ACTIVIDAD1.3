@@ -85,6 +85,12 @@ body {
     margin: 30px;
 }
 
+.logoG { 
+    position: absolute;
+    left: 1170px;
+    top: 200px;
+
+}
 .parrafoc {
     width: 700px;
     height: 200px;
@@ -104,3 +110,24 @@ body {
     top: 200px;
 
 }
+.parrafoc p
+{
+    font-size: auto;
+
+}
+.Calamardoh{
+    position: absolute;
+    bottom: -720px;
+    left: -500px;
+    
+
+
+} 
+
+.fotoT{
+    position: absolute;
+    left: 1250px;
+    top: 200px;
+
+}  
+
