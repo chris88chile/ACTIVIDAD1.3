@@ -171,3 +171,7 @@ footer .logotipo-footer{
 .card-body{
     text-align: left;
 }
+
+.texto{
+    justify-content: center;
+}
