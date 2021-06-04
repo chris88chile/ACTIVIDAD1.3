@@ -281,3 +281,16 @@ h1 .titulo-contacto{
     background-repeat: no-repeat;
     min-height: 50vh;
 }
+
+
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+.map {
+    background: #f5f6f8;
+    color: #ffffff;
+    
+}
