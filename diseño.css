@@ -266,3 +266,18 @@ h1 .titulo-contacto{
     margin-left: 15%;
     margin-right: 15%;
 }
+
+.form-group{
+    margin-top: 2%;
+}
+
+.form-group-unferior-segundo{
+    padding-top: 2%;
+}
+
+.register-bg-segundo {
+    background-image: url('Recursos/imagen-formulario.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
