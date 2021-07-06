@@ -287,10 +287,10 @@ h1 .titulo-contacto{
 #map {
 	height: 500px;
 	width: 100%;
+    
 }
 
-.map {
-    background: #f5f6f8;
-    color: #ffffff;
+.script-xd {
+    background: white;
     
 }
