@@ -11,7 +11,12 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <style>
         .contenedor {
-            width: 12%;
+            width: 13%;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            
+
         }
 
         .row {
@@ -42,7 +47,8 @@
     </style>
 </head>
 
-<body>
+<body background="Recursos/calamardoH.png">
+
     <div class="contenedor">
         <div class="row">
             <div class="col" id="pais"></div>
@@ -54,13 +60,14 @@
         <div class="row">
             <div class="col" id="clima"></div>
         </div>
+
     </div>
     <div id="demo"></div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    <script>
+    <script class="clima">
         d = document.getElementById("demo");
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
