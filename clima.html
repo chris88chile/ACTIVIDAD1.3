@@ -68,7 +68,7 @@
                 longitud = position.coords.longitude;
                 $.get("https://api.openweathermap.org/data/2.5/weather?lat=" + latitud + "&lon=" + longitud + "&appid=2581f6487081d8ee37c38e25428ce588&units=metric&lang=es", function (data) {
                     $("#pais").append(data.name + ", " + data.sys.country);
-                    $("#imagen").append("<img src='http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png'>");
+                    $("#imagen").append("<img src='https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png'>");
                     $("#temp").append(data.main.temp + "°C");
                     $("#clima").append(data.weather[0].description);
                 });
